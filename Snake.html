@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>snake game</title>
+    <style type="text/css">
+  #container{
+   text-align: center;
+  }
+  #canvas{
+   background-color: black;
+  }
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <canvas id="canvas" width="600" height="400">
+
+    </canvas>
+    <span>Score:<b id="score">0</b></span><span> Level:<b id="level">0</b></span>
+    <div id="gameUp" style="font-size: 80px;color:red;display:none">
+    </div>
+    <ul style="text-align: left">
+        <li style="color: red">Touch The walls Game Over</li>
+        <li>Score 50+ to reach Level 2 ** Speed increases</li>
+        <li>Score 100+ to reach Level 3 ** <b style="color: red">Speed increases</b></li>
+        <li>Score 200+ to reach Level 4 ** Speed decreases</li>
+        <li>Score 300+ to reach Level 5 ** Speed increases</li>
+        <li>Score 500+ to reach <b style="color: green">****Top Level*****</b></li>
+    </ul>
+
+</div>
+
+<script src="jquery.min.js"></script>
+<script src="snake.js"></script>
+
+</body>
+</html>
